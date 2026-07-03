@@ -88,6 +88,7 @@ This repository contains hands-on implementations of modern Retrieval-Augmented 
 
 - Guardrails
 - RAG Evaluation (RAGAS / TruLens)
+- Multimodal RAG
 - LangGraph
 - Agentic RAG
 
