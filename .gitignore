@@ -1,0 +1,81 @@
+# =========================
+# Environment Variables
+# =========================
+.env
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Vector Databases
+# =========================
+faiss_db/
+chroma_db/
+
+# =========================
+# Downloaded Embedding Models
+# =========================
+ms-marco-MiniLM-L-12-v2/
+flashrank-MiniLM-L-12-v2/
+*.onnx
+
+# Hugging Face cache (optional)
+.cache/
+huggingface/
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+__MACOSX/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+
+# =========================
+# Neo4j
+# =========================
+neo4j_data/
+neo4j_logs/
+
+# =========================
+# OS Files
+# =========================
+Thumbs.db
+Desktop.ini
+
+# =========================
+# IDEs and Editors
+# =========================
+.idea/
+*.swp
+*.swo
