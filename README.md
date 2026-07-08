@@ -39,8 +39,9 @@ This repository contains hands-on implementations of modern Retrieval-Augmented 
 ├── Reranking_from_Scratch.ipynb
 ├── FlashRerank.ipynb
 ├── MergeRetriever_and_LongContextReorder.ipynb
-├── RAG_fusion.ipynb
+├── RAG_Fusion.ipynb
 ├── GraphRAG_with_Neo4j.ipynb
+├── Vectorless_RAG.ipynb
 │
 └── README.md
 ```
@@ -53,8 +54,10 @@ This repository contains hands-on implementations of modern Retrieval-Augmented 
 - ✅ Vanilla RAG
 - ✅ Parent Document Retriever
 - ✅ Self Query Retriever
+- ✅ Multi Query Retriever
 - ✅ HyDE (Hypothetical Document Embeddings)
 - ✅ Hybrid Search (BM25 + Semantic Search)
+- ✅ Vectorless RAG (PageIndex)
 - ✅ RAG Fusion
 
 ### ⚡ Retrieval Optimization
@@ -62,6 +65,8 @@ This repository contains hands-on implementations of modern Retrieval-Augmented 
 - ✅ FlashRank Integration
 - ✅ Long Context Reordering
 - ✅ Merger Retriever (LOTR)
+- ✅ Contextual Compression
+- ✅ Maximum Marginal Relevance (MMR)
 
 ### 🗄️ Vector Databases
 - ✅ FAISS
@@ -81,6 +86,7 @@ This repository contains hands-on implementations of modern Retrieval-Augmented 
 - Self-RAG
 - Reciprocal Rank Fusion (RRF)
 - Knowledge Graphs
+- Vectorless-RAG
 
 ---
 
