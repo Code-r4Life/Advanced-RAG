@@ -7,6 +7,7 @@
 ![Neo4j](https://img.shields.io/badge/Neo4j-GraphRAG-018BFF?style=for-the-badge&logo=neo4j)
 ![Chroma](https://img.shields.io/badge/Chroma-Vector_Store-purple?style=for-the-badge)
 ![Weaviate](https://img.shields.io/badge/Weaviate-Vector_DB-00C7B7?style=for-the-badge&logo=weaviate)
+![RAGAS](https://img.shields.io/badge/RAGAS-Evaluation-6C5CE7?style=for-the-badge)
 ![HuggingFace](https://img.shields.io/badge/Hugging_Face-Transformers-FFD21E?style=for-the-badge&logo=huggingface)
 ![Gemini](https://img.shields.io/badge/Gemini-Google_AI-4285F4?style=for-the-badge&logo=google)
 ### Implementing Modern Retrieval-Augmented Generation Techniques
@@ -28,8 +29,13 @@ This repository contains hands-on implementations of modern Retrieval-Augmented 
 ```text
 📦 ADVANCED RAG
 │
-├── papers/                      # Research papers
-├── archs/                       # Architecture diagrams
+├── papers/                              # Research papers
+├── archs/                               # Architecture diagrams
+├── evals/                               # RAGAS evaluation datasets & results
+│   ├── groundtruth_eval_dataset.csv     # Generated ground-truth QA dataset
+│   ├── basic_qa_ragas_dataset.csv       # Vanilla RAG evaluation results
+│   ├── parent_qa_ragas_dataset.csv      # Parent Retriever evaluation results
+│   └── ensemble_qa_ragas_dataset.csv    # Ensemble Retriever evaluation results
 │
 ├── ParentDocument_Retriever.ipynb
 ├── Self_Query_Retriever.ipynb
