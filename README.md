@@ -42,6 +42,7 @@ This repository contains hands-on implementations of modern Retrieval-Augmented 
 ├── RAG_Fusion.ipynb
 ├── GraphRAG_with_Neo4j.ipynb
 ├── Vectorless_RAG.ipynb
+├── RAG_Evaluation.ipynb
 │
 └── README.md
 ```
@@ -76,6 +77,13 @@ This repository contains hands-on implementations of modern Retrieval-Augmented 
 ### 🕸️ Knowledge Graphs
 - ✅ GraphRAG with Neo4j
 
+### 📊 RAG Evaluation
+- ✅ RAGAS Evaluation
+- ✅ Ground Truth Dataset Generation
+- ✅ Context Precision & Context Recall
+- ✅ Faithfulness & Answer Relevancy
+- ✅ Retriever Performance Comparison
+
 ---
 
 ## 📄 Papers Used
@@ -87,13 +95,13 @@ This repository contains hands-on implementations of modern Retrieval-Augmented 
 - Reciprocal Rank Fusion (RRF)
 - Knowledge Graphs
 - Vectorless-RAG
+- RAGAS
 
 ---
 
 ## 🎯 Upcoming
 
 - Guardrails
-- RAG Evaluation (RAGAS / TruLens)
 - Multimodal RAG
 - LangGraph
 - Agentic RAG
